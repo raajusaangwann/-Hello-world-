@@ -88,13 +88,37 @@ let x = [
 // const namee = 'My name is \\peterrr.';
 // console.log(namee);   // My name is 'Peter'.
 
-var myArray = [1, 2, 3, 4, 5];
-var newArray = myArray.slice(2, 3);
-console.log(newArray);
+// var myArray = [1, 2, 3, 4, 5];
+// var newArray = myArray.slice(2, 3);
+// console.log(newArray);
  
-let obj ={
-    name : " rahul",
-    hobby : " travelling",
-    mob_num : 98911123413,
-};
-console.log(obj);
+
+// array reverse method
+let arr=[" hello india! , How's the joshhh"];
+//console.log(arr.reverse());
+
+// 
+
+// palindrome program 
+// let str="malaysia";
+// console.log(str);
+// str1 = str.replace(/[^a-zA-z]/g,"").toLowercase();
+// let reverseStr=str.split("").reverse().join("");
+// if (reverseStr === str){
+//     console.log("true");
+// } else {
+//     console.log("false");
+// }
+// //console.log(str);
+
+// rotating an array
+let rotateNames=["ram","sita","laxman","bharat","bajrang"];
+let k =2;
+//rotateNames.unshift(rotateNames.pop());
+for (let i =0; i < k; i++){
+    //rotateNames.splice(4,1,rotateNames[i]);
+  rotateNames.unshift(rotateNames.pop());
+}
+console.log(rotateNames);
+
+
